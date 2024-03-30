@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: color #faf4f2;
+}
+.clear {
+  clear: both;
+}
+.header {
+  background-color: #f8e1db;
+  padding: 10px 40px;
+}
+.header_navigation {
+  list-style: none;
+  margin-top: 20px;
+}
+.header_navigation li {
+  display: inline;
+  margin-right: 30px;
+}
+.header_navigation li:last-child {
+  margin-right: 0;
+}
+.header_navigation li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 100px;
+}
+.carousel {
+  height: 600px;
+  background-image: url(../Image/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.activities {
+  padding: 50px 0;
+}
+.activities__title {
+  text-align: center;
+}
+.activities__title span {
+  display: block;
+}
+.activities__items {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.activities__inner {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+.activities__img img {
+  width: 100%;
+}
+
+.activities__img {
+  position: relative;
+}
+
+.activities__img img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.activities__item h4 {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.activities__item p {
+  font-size: 16px;
+  color: #8d8d8d;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.activities__item button {
+  width: 160px;
+  background: #e8e8e8;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.activities__icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.activities__icon i {
+  line-height: 30px;
+  color: #e76f51;
+}
+
+.activities__button {
+  margin-top: 40px;
+}
+
+.activities__button button {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+
+  background: transparent;
+  border: 1px solid #e76f51;
+  font-size: 20px;
+  color: #e76f51;
+  padding: 10px;
+  border-radius: 22.5px;
+
+  cursor: pointer;
+}
+
+.activities__button button:hover {
+  background: #e76f51;
+  color: #fff;
+}
+
+.contact {
+  background: #f8e1db;
+}
+
+.contact__left,
+.contact__right {
+  width: 50%;
+  float: left;
+}
+
+.contact__left {
+  background: url(../Image/mask.png) no-repeat center / cover;
+}
+
+.contact__app,
+.contact__social {
+  width: 50%;
+  float: left;
+}
